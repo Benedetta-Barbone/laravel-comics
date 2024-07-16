@@ -124,6 +124,29 @@ Route::get('/', function () {
             "type" => "graphic novel",
         ]
     ];
-    return view('pages.home', compact ('data'));
+    $options = [
+        [
+            'img' => 'resources/img/buy-comics-digital-comics.png',
+            'title' => 'DIGITAL COMICS'
+        ],
+        [
+            'img' => 'resources/img/buy-comics-merchandise.png',
+            'title' => 'MOVIES'
+        ],
+        [
+            'img' => 'resources/img/buy-comics-shop-locator.png',
+            'title' => 'TV'
+        ],
+        [
+            'img' => 'resources/img/buy-comics-subscriptions.png',
+            'title' => 'GAMES'
+        ],
+        [
+            'img' => 'resources/img/buy-dc-power-visa.svg',
+            'title' => 'COLLECTIBLES'
+        ]
+];
+    return view('pages.home', compact ('data', 'options'));
 });
+
 

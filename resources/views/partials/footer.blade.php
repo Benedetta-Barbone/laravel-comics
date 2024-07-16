@@ -1,11 +1,14 @@
-<footer>
+<footer id="app-footer">
    <section class="azzurra">
     <div>
+        @foreach ($options as $option)
         <ul >            
             <li>
-                <!-- <img :src="index.image" alt=""> -->
+                <img src="{{vite::asset( $option['img']) }}" alt="" class="logo">
+                    {{ $option['title']}}               
             </li>
         </ul>
+        @endforeach
     </div>
    </section>
    <section class="info">

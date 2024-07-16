@@ -2,13 +2,28 @@
 
 <div>
     <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
-        <ul>
+    <ul>            
             <li>
-                link
+                Characters
             </li>
             <li>
-                link
+                Comics
             </li>
+            <li>
+               Movies
+            </li>
+            <li>
+                TV
+            </li>
+            <li>
+                Videos
+            </li>
+            <li>
+                Games
+            </li>
+            <li>
+                News
+            </li>            
         </ul>
     </div>
 </header>

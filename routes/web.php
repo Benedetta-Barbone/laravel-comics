@@ -124,6 +124,6 @@ Route::get('/', function () {
             "type" => "graphic novel",
         ]
     ];
-    return view('pages.home');
+    return view('pages.home', compact ('data'));
 });
 

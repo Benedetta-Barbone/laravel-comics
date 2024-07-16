@@ -4,11 +4,16 @@
 
 @section('main-content')
     <section class="list-cards">
+
+        @foreach ($data as $card)
         <div class="card">
-            <img src="{{ Vite::asset ('') }}" alt="" class="card-img">
+            <img src="{{ $card['thumb'] }}" alt="" class="card-img">
             <div class="card-details">
-                <h2>card</h2>
+                <h2>
+                    {{ $card['series']}}
+                </h2>
             </div>
         </div>
+        @endforeach
     </section>
 @endsection

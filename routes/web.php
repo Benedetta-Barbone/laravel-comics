@@ -146,7 +146,24 @@ Route::get('/', function () {
             'title' => 'COLLECTIBLES'
         ]
     ];
-    return view('pages.home', compact ('data', 'options', ));
+    $contacts = [
+        [
+            "img" => "resources/img/footer-facebook.png",
+        ],
+        [
+            "img" => "resources/img/footer-pinterest.png",
+        ],
+        [
+            "img" => "resources/img/footer-twitter.png",
+        ],
+        [
+            "img" => "resources/img/footer-youtube.png",
+        ],
+        [
+            "img" => "resources/img/footer-periscope.png",
+        ]
+    ];
+    return view('pages.home', compact ('data', 'options','contacts' ));
 });
 
 

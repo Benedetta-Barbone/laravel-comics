@@ -101,14 +101,15 @@
    <section class="follow">
         <div>
             <button>SIGN-UP NOW!</button>
-            <ul>
-                <h1>FOLLOW US </h1>
+            <ul >   
+                <h1>
+                    FOLLOW US
+                </h1>         
+            @foreach ($contacts as $contact)
                 <li>
-                    link
-                </li>            
-                <li>
-                    link
+                    <img src="{{vite::asset( $contact['img']) }}" alt="" class="logo">              
                 </li>
+            @endforeach
             </ul>
         </div>
    </section>

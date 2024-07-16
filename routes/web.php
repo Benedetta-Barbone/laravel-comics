@@ -145,8 +145,8 @@ Route::get('/', function () {
             'img' => 'resources/img/buy-dc-power-visa.svg',
             'title' => 'COLLECTIBLES'
         ]
-];
-    return view('pages.home', compact ('data', 'options'));
+    ];
+    return view('pages.home', compact ('data', 'options', ));
 });
 
 

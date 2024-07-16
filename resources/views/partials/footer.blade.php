@@ -12,30 +12,88 @@
     </div>
    </section>
    <section class="info">
-    <div>
+    <div>    
         <ul>           
             <h1>DC COMICS</h1> 
             <li>
-                link
+                Characters
             </li>
-            <h1>SHOP</h1>
             <li>
-                link
+                Comics
+            </li>
+            <li>
+               Movies
+            </li>
+            <li>
+                TV
+            </li>
+            <li>
+                Videos
+            </li>
+            <li>
+                Games
+            </li>
+            <li>
+                News
+            </li>            
+        </ul>
+        <ul>           
+            <h1>SHOP</h1> 
+            <li>
+                Shop DC
+            </li>
+            <li>
+                Shop DC collectibles
             </li>
         </ul>
         <ul>           
             <h1>DC</h1> 
             <li>
-                link
+                Terms of Use
+            </li>
+            <li>
+                Privacy policy (new)
+            </li>
+                        <li>
+                Ad Choices
+            </li>
+            <li>Advertising
+            </li>
+                        <li>
+               Jobs
+            </li>
+            <li>
+                Subscriptions
+            </li>
+            <li>
+                Talent Workshops
+            </li>
+            <li>
+                CPSC Certificates
+            </li>
+                        <li>
+                Ratings
+            </li>
+            <li>
+                Shop Help
+            </li>
+                        <li>
+                COntact Us
             </li>
         </ul>
         <ul>           
             <h1>SITES</h1> 
             <li>
-                link
+               Dc
             </li>
             <li>
-                link
+                MAD Magazine
+            </li>
+            <li>
+                Dc Kids
+            </li>
+            <li>
+                DC Universe
             </li>
         </ul>
     </div>
